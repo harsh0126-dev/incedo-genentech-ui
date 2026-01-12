@@ -12,15 +12,15 @@ function App() {
 
       {/* ================= HERO / LANDING ================= */}
       <main className="hero">
-        <h1 className="title">Data Quality & Intelligence Platform</h1>
+        <h1 className="title">Incedo's Data Modernization Platform</h1>
         <p className="subtitle">
-          Accelerating trusted insights with enterprise-grade analytics
+          Powered by GenAI Enabled Migration Toolkit
         </p>
 
         {/* ALL BUTTONS PARALLEL */}
         <div className="button-row">
-          <button className="primary-btn">Intellipath</button>
-          <button className="secondary-btn">DQ Expert</button>
+          <button className="primary-btn">IntelliQA</button>
+          <button className="secondary-btn">DataXel</button>
           <button className="secondary-btn">Analytics Hub</button>
           <button className="primary-btn">Quality Monitor</button>
         </div>
