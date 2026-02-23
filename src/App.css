@@ -87,7 +87,9 @@ body {
 }
 
 .primary-btn:hover {
-  background-color: var(--dark-blue);
+  background-color: white;
+  color: var(--roche-blue);
+  border: 2px solid var(--roche-blue);
   transform: translateY(-2px);
 }
 
