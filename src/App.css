@@ -83,7 +83,7 @@ body {
 .primary-btn {
   background-color: var(--roche-blue);
   color: white;
-  border: none;
+  border: 2px solid transparent;
 }
 
 .primary-btn:hover {
