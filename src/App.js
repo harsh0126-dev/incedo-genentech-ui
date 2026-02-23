@@ -24,7 +24,7 @@ function App() {
 
         {/* ALL BUTTONS PARALLEL */}
         <div className="button-row">
-          <button className="primary-btn" onClick={handleDataXelClick}>
+          <button className="secondary-btn" onClick={handleDataXelClick}>
             IntelliQA
           </button>
           <button className="secondary-btn" onClick={handleDataXelClick}>
