@@ -1,9 +1,14 @@
 import "./App.css";
 
+const DATAXEL_URL = "https://dataxel.incedolabs.com/";
+
 function App() {
+  const handleDataXelClick = () => {
+    window.open(DATAXEL_URL, "_blank", "noopener,noreferrer");
+  };
+
   return (
     <div className="app-container">
-
       {/* ================= HEADER ================= */}
       <header className="header">
         <img src="/incedo-logo.png" alt="Incedo" className="logo" />
@@ -19,10 +24,12 @@ function App() {
 
         {/* ALL BUTTONS PARALLEL */}
         <div className="button-row">
-          <button className="primary-btn">IntelliQA</button>
-          <button className="secondary-btn">DataXel</button>
-          <button className="secondary-btn">Analytics Hub</button>
-          <button className="primary-btn">Quality Monitor</button>
+          <button className="primary-btn" onClick={handleDataXelClick}>
+            IntelliQA
+          </button>
+          <button className="secondary-btn" onClick={handleDataXelClick}>
+            DataXel
+          </button>
         </div>
       </main>
 
@@ -30,7 +37,6 @@ function App() {
       <footer className="footer">
         © 2026 Incedo × Genentech. All rights reserved.
       </footer>
-
     </div>
   );
 }
